@@ -751,7 +751,7 @@ section {
   }
 }
 
-.apartment__list {
+/* .apartment__list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -780,7 +780,7 @@ section {
     display: flex;
     width: 2000px;
   }
-}
+} */
 
 .apartment__item {
   background: #ffffff;
@@ -850,16 +850,16 @@ section {
   width: 100%;
 }
 
-.statictic__list {
+/* .statictic__list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 130px;
   grid-row-gap: 50px;
-}
+} */
 
-@media (max-width: 1125px) {
+/* @media (max-width: 1125px) {
   .statictic__list {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -871,7 +871,7 @@ section {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
-}
+} */
 
 .statictic__numbers {
   font-weight: 700;
@@ -1237,7 +1237,7 @@ section {
   margin-bottom: 60px;
 }
 
-.difference__list {
+/* .difference__list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -1249,7 +1249,7 @@ section {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
-}
+} */
 
 .difference__item {
   padding: 0 80px 54px 100px;
@@ -1497,7 +1497,7 @@ section {
   margin-bottom: 110px;
 }
 
-.client-steps__list {
+/* .client-steps__list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -1511,7 +1511,7 @@ section {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
 .client-steps__item {
   display: -webkit-box;
@@ -1734,13 +1734,13 @@ section {
   max-width: 480px;
 }
 
-.ad-statistic__item-footer {
+/* .ad-statistic__item-footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 20px;
-}
+} */
 
 .question {
   padding-bottom: 100px;
@@ -1822,12 +1822,12 @@ section {
   background-color: #ffffff;
 }
 
-.footer__container {
+/* .footer__container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (25%)[4];
       grid-template-columns: repeat(4, 25%);
-}
+} */
 
 @media (max-width: 850px) {
   .footer__container {

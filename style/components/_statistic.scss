@@ -1,0 +1,49 @@
+.statictic {
+	padding-top: 142px;
+	padding-bottom: 100px;
+	// .statictic__container
+
+	&__container {
+		width: 100%;
+	}
+
+	// .statictic__list
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 130px;
+		grid-row-gap: 50px;
+		@include _1125 {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@include _600 {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+
+	// .statictic__item
+
+	&__item {
+	}
+
+	// .statictic__numbers
+
+	&__numbers {
+		font-weight: 700;
+		font-size: 80px;
+		color: $accent-light;
+		white-space: nowrap;
+	}
+
+	// .statictic__title
+
+	&__title {
+		margin: 30px 0;
+	}
+
+	// .statictic__text
+
+	&__text {
+	}
+}

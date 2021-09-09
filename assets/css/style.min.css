@@ -380,6 +380,7 @@ section {
 @media (max-width: 850px) {
   .header .header__container .burger {
     display: block;
+    right: 29%;
   }
 }
 .burger span {

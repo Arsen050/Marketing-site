@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
     
     <!-- Useful meta tags -->
@@ -13,7 +13,7 @@
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>BrainsCloud | Home</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
         <div class="container header__container">
             <div class="header__logo logo">
                 <img src="./assets/images/logo.svg" alt="logo" class="header__logo-icon logo-icon">
-                <h2 class="header__logo-title logo-title">MIRADEN</h2>
+                <h2 class="header__logo-title logo-title">MIRCUL</h2>
             </div>
             <nav class="header__menu">
                 <ul class="header__menu-list">
@@ -38,22 +38,35 @@
                 <a href="#" class="header__messengers-link">Telegram</a>
             </div>
     
-            <div class="header__burger">
+            <div class="burger">
                 <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="popup__menu">
+                
+                    <li class="popup__menu-item"><a href="#" class="popup__menu-link">О нас</a></li>
+                    <li class="popup__menu-item"><a href="#" class="popup__menu-link">Кейсы</a></li>
+                    <li class="popup__menu-item"><a href="#" class="popup__menu-link">Тарифы</a></li>
+                    <li class="popup__menu-item"><a href="#" class="popup__menu-link">Узнать цену заявки</a></li>
+                
             </div>
         </div>
     </header>
 
     
+    Hello!
     <main class="main">
         <section class="hero">
             <div class="container hero__container">
                 <div class="hero__content">
-                    <h1 class="title">Целевые заявки для продавцов недвижимости из facebook / instagram</h1>
+                    <h1 class="title hero__title">Целевые заявки для продавцов недвижимости из facebook / instagram</h1>
                     <p class="hero__desc">Настроим для вас рекламу в соц. сетях и обеспечим потоком целевых заявок. Работаем только с риелторами и застройщиками по всему миру!</p>
                     <button class="btn hero__btn">Узнать цену заявки</button>
                 </div><!-- /.hero__content -->
-        
+    
                 <div class="apartment">
                     <ul class="apartment__list">
                         <li class="apartment__item">
@@ -197,7 +210,7 @@
         
         </section>
         <!-- /.hero -->
-        
+    
         <section class="statictic">
             <div class="container statictic__container">
                 <ul class="statictic__list">
@@ -220,7 +233,7 @@
             </div>
         </section>
         <!-- /.statictic -->
-        
+    
         <section class="our-clients">
             <div class="container our-clients__container">
                 <div class="our-clients__content">
@@ -253,7 +266,7 @@
                         </li>
                         <li class="our-clients__item">
                             <div class="our-clients__item-logo">
-                                <img src="img/add-user.png" alt="add-user" class="img our-clients__item-icon">
+                                <img src="./assets/images/add-user.png" alt="add-user" class="img our-clients__item-icon">
                             </div>
                         
                             <h4 class="our-clients__item-title">Или</h4>
@@ -267,7 +280,7 @@
             </div>
         </section>
         <!-- /.our-clients -->
-        
+    
         <section class="facts">
             <div class="container facts__container">
                 <h2 class="section__title">5 фактов о нас</h2>
@@ -297,7 +310,7 @@
             </div>
         </section>
         <!-- /.facts -->
-        
+    
         <section class="difference">
             <div class="container difference__container">
                 <h2 class="section__title difference__title">Чем отличаемся от многих маркетологов</h2>
@@ -328,7 +341,7 @@
             </div>
         </section>
         <!-- /.difference -->
-        
+    
         <section class="target-app">
             <div class="container target-app__container">
                 <div class="target-app__content">
@@ -420,12 +433,12 @@
             </div>
         </section>
         <!-- /.client-steps -->
-        
+    
         <section class="reviews">
             <div class="container reviews__container">
                 <h2 class="section__title">Отзывы и кейсы</h2>
                 <p class="section__desc">Несколько отзывов наших клиентов и видео кейсы реализованных проектов</p>
-        
+    
                 <div class="reviews-slider">
                     <div class="reviews-slider-item">
                         <img src="./assets/images/reviews-slider-1.jpg" alt="Руководитель выставки" class="reviews-slider-item-img">
@@ -529,7 +542,7 @@
             </div>
         </section>
         <!-- /.ad-statistic -->
-        
+    
         <section class="question">
             <div class="container question__container">
                 <h2 class="section__title center">
@@ -538,13 +551,13 @@
                 <ul class="question__list">
                     <li class="question__item">
                     
-        
+    
                         <div class="question__item-header">
                             <p class="question__text">Какие гарантии, что инвестиции в рекламу окупятся?</p>
                             <img src="./assets/images/chevron-down-solid.svg" alt="chevron-down" class="question__item-chevron-down">
                         </div>
-        
-        
+    
+    
                         <div class="question__answer-text">
                             <p>Мы можем отвечать только за то, на что можем влиять. В данном случае влияем только на заявки (на их качество, стоимость и количество). Но кроме заявок есть еще 3 основных фактора, от которых зависит окупаемость. К ним относятся:</p>
                             <ul>
@@ -556,13 +569,13 @@
                         </div>
                     </li>
                     <li class="question__item">
-        
+    
                         <div class="question__item-header">
                             <p class="question__text">Какие гарантии, что инвестиции в рекламу окупятся?</p>
                             <img src="./assets/images/chevron-down-solid.svg" alt="chevron-down" class="question__item-chevron-down">
                         </div>
                         
-        
+    
                         <p class="question__text">Что делать, если нет презентации, сайта или страницы в Facebook?</p>
                         <div class="question__answer-text">
                                 <p>Все в порядке. В рекламе мы не используем сторонние сайты или презентации. Иначе это размоет нашу ответственность за конечный результат.</p>
@@ -614,15 +627,13 @@
         </section>
         <!-- /.question -->
     </main>
-    
-    
 
     <footer class="footer">
         <div class="container footer__container">
             <div class="footer__left">
                 <div class="logo">
                     <img src="./assets/images/logo.svg" alt="logo" class="logo-icon">
-                    <h2 class="logo-title">MIRADEN</h2>
+                    <h2 class="logo-title">MIRCUL</h2>
                 </div>
                 <p class="footer__left-text">
                     Настраиваем рекламу в соцсетях и обеспечиваем потоком целевых заявок. Работаем только с риелторами и застройщиками по всему миру!
@@ -658,11 +669,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer__nav">
+            <div class="footer__nav footer__nav-social">
                 <p class="footer__nav-title"></p>
                 <ul class="footer__nav-list">
                     <li class="footer__nav-item">
-                        <a href="#" class="footer__nav-link">info@miraden.com</a>
+                        <a href="#" class="footer__nav-link">mail@gmail.com</a>
                     </li>
                     <li class="footer__nav-item-social">
                         <a href="#" class="footer__nav-item-social-btn"><img src="./assets/images/facebook.svg" alt="facebook-icon"></a>
@@ -672,13 +683,11 @@
                 </ul>
             </div>
         </div>
+    
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/slick.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/slick.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/main.js"></script>
-
-
+    <!-- <script src="assets/js/main.js"></script> -->
 </body>
 </html>
